@@ -20,9 +20,9 @@ Three machine learning models are experimented with in this project:
 ## Model Training and Testing
 Models are trained on the dataset, and their performances are compared. The report details the accuracy and F1-scores for each model. The Logistic Regression model demonstrated the highest accuracy.
 ## Result
-Naive Bayes: 0.76
-Logistic Regression: 0.88
-CNN: 0.9064
+- Naive Bayes: 0.76
+- Logistic Regression: 0.88
+- CNN: 0.9064
 ## Application
 An application is developed that allows users to input text and receive an emotion prediction along with the probability for each label. The models and tokenizer are saved using `joblib` and `pickle` for this purpose.
 
